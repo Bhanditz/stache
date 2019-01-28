@@ -37,9 +37,9 @@ module Stache
       # Redefine where Stache::View templates locate their partials
       def partial(name)
         partial_template = begin # Try to resolve the partial template
-          template_finder(name, true)
-        rescue ActionView::MissingTemplate
           template_finder(name, false)
+        rescue ActionView::MissingTemplate
+          template_finder(name, true)
         end
 
         cache_key = :"#{virtual_path}/#{name}#{partial_template.updated_at.to_i}"
