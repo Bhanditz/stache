@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module Stache
   # Change these defaults in, say, an initializer.
   #

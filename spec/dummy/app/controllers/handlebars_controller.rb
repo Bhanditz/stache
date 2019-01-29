@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 class HandlebarsController < ApplicationController
 
   def index

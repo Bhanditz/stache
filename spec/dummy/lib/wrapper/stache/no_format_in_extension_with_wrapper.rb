@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module Wrapper
   module Stache
     class NoFormatInExtensionWithWrapper < ::Stache::Mustache::View

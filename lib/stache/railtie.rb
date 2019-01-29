@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module Stache
   class Railtie < ::Rails::Railtie
     initializer 'stache.autoload', before: :set_autoload_paths do |app|
