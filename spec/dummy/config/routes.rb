@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 Dummy::Application.routes.draw do
   get 'stache', to: 'stache#index', as: 'stache'
 

@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 class UserMailer
   class ConfirmSignUp < ::Stache::Mustache::View
     def full_name

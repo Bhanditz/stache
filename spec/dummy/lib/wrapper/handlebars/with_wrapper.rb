@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module Wrapper
   module Handlebars
     class WithWrapper < ::Stache::Handlebars::View

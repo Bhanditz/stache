@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module Stache
   module AssetHelper
     # template_include_tag("widgets/basic_text_api_data")

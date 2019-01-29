@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module Stache
   # Basically a dumping ground for code that didn't fit anywhere else
   module Util

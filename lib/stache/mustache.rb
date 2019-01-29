@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 require "stache/mustache/handler"
 require "stache/mustache/layout"
 require "stache/mustache/cached_template"

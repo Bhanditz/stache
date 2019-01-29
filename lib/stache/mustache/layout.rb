@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module Stache
   module Mustache
     # This class is for providing layouts in a better way.

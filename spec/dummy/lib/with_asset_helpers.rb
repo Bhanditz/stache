@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 class Stache::WithAssetHelpers < Stache::Mustache::View
 
   def my_image
